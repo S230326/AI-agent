@@ -20,10 +20,10 @@ with col1:
 # 3. 데이터시각화
 with col2:
       st.subheader('데이터시각화1')
-      st.image('시각화1.png' )   # 이미지 불러오기
+      st.image('bitmap.PNG' )   # 이미지 불러오기
 with col3:
       st.subheader('데이터시각화2')
-      st.image('시각화2.png')    # 이미지 불러오기
+      st.image('image.png')    # 이미지 불러오기
 
 # 4. 모델 활용
 st.subheader('모델 활용')
