@@ -8,7 +8,7 @@ import joblib
 model = joblib.load('AI_agent_model.pkl') 
 # 2. 모델 설명
 st.title('비행 만족도 예측 에이전트')
-st.subheader('〰수많은 훈련 데이터로 학습시켰습니다!!〰')
+st.subheader('〰10만 건의 훈련 데이터로 학습시켰습니다!!〰')
 col1, col2,col3 = st.columns( 3 )      # 몇 개의 컬럼으로 나눌까?
 with col1:
       st.subheader('모델 설명 ')
