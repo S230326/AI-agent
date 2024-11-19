@@ -1,4 +1,4 @@
-ㅔ[[[;ㅣ # 분류 모델 웹앱 만들기
+ # 분류 모델 웹앱 만들기
 
 import streamlit as st
 
