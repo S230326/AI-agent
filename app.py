@@ -5,7 +5,7 @@ import streamlit as st
 # 1. 기계학습 모델 파일 로드
 
 import joblib
-model = joblib.load('AI_agent_model.pkl') 
+model = joblib.load('AI_agent_model(1).pkl') 
 # 2. 모델 설명
 st.title('비행 만족도 예측 에이전트')
 st.subheader('〰10만 건의 훈련 데이터로 학습시켰습니다!!〰')
