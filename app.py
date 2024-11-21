@@ -17,6 +17,7 @@ with col1:
       st.write(' - 훈련    데이터 : 103904건')
       st.write(' - 테스트 데이터 : 25976건')
       st.write(' - 모델 정확도 : 0.8')
+      
 
 # 3. 데이터시각화
 with col2:
@@ -40,3 +41,6 @@ if st.button('만족/불만족 분류'):
               st.success('인공지능 예측 결과는 만족입니다')
         else:
               st.success('인공지능 예측 결과는 불만족입니다')
+
+if st.button('이 모델을 상업적 활용에 관한 정보'):
+      st.write('이 모델을 상업적으로 사용하려면 gimpo.s230326@ggh.goe.go.kr에 문의주세요.')
