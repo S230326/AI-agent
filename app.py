@@ -75,6 +75,6 @@ if st.button("kayoko onikata"):
 
 # 상태에 따른 텍스트 표시
 if st.session_state.show_image:
-   st.image('Kayoko_Onikata_Dress_Portrait.webp' )
+   st.image('Kayoko_Onikata_Dress_Portrait.png' )
 
 
