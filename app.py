@@ -61,3 +61,20 @@ if st.session_state.show_text:
 
 
 
+
+if 'show_image' not in st.session_state:
+    st.session_state.show_image = False  # 텍스트 표시 여부 초기화
+
+# 버튼 클릭 시 상태 변경
+def toggle_text():
+    st.session_state.show_image = not st.session_state.show_image  # 상태 반전
+
+# 버튼 UI
+if st.button("kayoko onikata"):
+    toggle_image()  # 상태 변경 함수 호출
+
+# 상태에 따른 텍스트 표시
+if st.session_state.show_image:
+   st.image('Kayoko_Onikata_Dress_Portrait.webp' )
+
+
