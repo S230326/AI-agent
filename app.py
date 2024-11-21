@@ -54,7 +54,7 @@ def toggle_action():
 # 버튼 UI
 if st.session_state.toggle_state:
     st.button("이 모델의 상업적 활용에 관한 정보", on_click=toggle_action)  # 상태가 True일 때 버튼 텍스트는 "취소"
-      st.write('이 모델을 상업적으로 사용하려면 gimpo.s230326@ggh.goe.go.kr에 연락주세요')
+            st.write('이 모델을 상업적으로 사용하려면 gimpo.s230326@ggh.goe.go.kr에 연락주세요')
 else:
     st.button("이 모델의 상업적 활용에 관한 정보", on_click=toggle_action)  # 상태가 False일 때 버튼 텍스트는 "실행"
 
